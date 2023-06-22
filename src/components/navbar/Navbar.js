@@ -21,12 +21,13 @@ const Navbar = () => {
     <div className="flex h-full px-[120px] pb-[30px] bg-gray-900 sticky top-0 ">
       {/* Navbar */}
       <div className="w-1/2 h-full bg-gray-900 text-white pl-[96px] pt-[95px] sticky top-0 ">
-        <h1 className="text-5xl font-bold text-gray-300 font-titleFont">
+        <h1 className="text-5xl font-bold text-gray-300 font-bodyFont">
           Warawut Suriyachareon{" "}
           {/* <span className="text-designColor capitalize">Warawut Suriyachareon</span> */}
         </h1>
         <h2 className="text-xl font-bodyFont text-gray-400 mt-10">
-          Wanna be a <span className="text-designColor">{text}</span>
+          Wanna be a{" "}
+          <span className="text-designColor font-bodyFont">{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -39,7 +40,7 @@ const Navbar = () => {
           <ul className="pt-[50px]">
             {navLinksdata.map(({ _id, title, link }) => (
               <li key={_id} className="pl-9 pt-3">
-                <span className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer">
+                <span className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont">
                   <Link
                     activeClass="active"
                     to={link}
@@ -50,7 +51,7 @@ const Navbar = () => {
                   >
                     {title}
                   </Link>
-                  <span className="w-[30px] h-[3px] bg-designColor inline-flex absolute -left-10 bottom-2 group-hover:translate-x-0 group-hover:w-[60px] transition-all duration-100"></span>
+                  <span className="w-[30px] h-[3px] bg-designColor rounded-xl inline-flex absolute -left-10 bottom-1.5 group-hover:translate-x-0 group-hover:w-[60px] transition-all duration-100"></span>
                 </span>
               </li>
             ))}
