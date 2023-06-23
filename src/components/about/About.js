@@ -3,7 +3,7 @@ import { BiSolidGraduation } from "react-icons/bi";
 
 const About = () => {
   return (
-    <section id="about" className="w-full h-[700px]">
+    <section id="about" className="w-full h-[800px]">
       <div className="font-bodyFont px-[15px]">
         <p className="text-md leading-relaxed text-gray-400">
           I aspire to become a{" "}
