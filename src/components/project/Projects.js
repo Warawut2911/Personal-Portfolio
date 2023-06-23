@@ -91,30 +91,18 @@ const Projects = () => {
                 designed to enable face scanning for the purpose of face
                 verification for attendance.
               </p>
-              <div className="flex gap-2">
-                <a
-                  href="https://portfolio1-lilac-eight.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-sm my-5 font-medium"
-                >
-                  <span>
-                    <AiOutlineLink />
-                  </span>
-                  <span className="mx-0.5">Live Demo</span>
-                </a>
-                <a
-                  href="https://github.com/Warawut2911/Project499"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center text-sm my-5 font-medium"
-                >
-                  <span>
-                    <AiOutlineLink />
-                  </span>
-                  <span className="mx-0.5">Source Code</span>
-                </a>
-              </div>
+
+              <a
+                href="https://github.com/Warawut2911/Project499"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center text-sm my-5 font-medium"
+              >
+                <span>
+                  <AiOutlineLink />
+                </span>
+                <span className="mx-0.5">Source Code</span>
+              </a>
             </div>
 
             <div className="flex mt-2 ml-4">
