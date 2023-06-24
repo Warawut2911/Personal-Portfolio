@@ -43,6 +43,7 @@ const Navbar = () => {
                 <span className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont">
                   <Link
                     activeClass="active"
+                    smooth={true}
                     to={link}
                     spy={true}
                     offset={-70}
@@ -59,10 +60,8 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="px-[16px] bg-gray-900 "></div>
-
       {/* Content */}
-      <div className="w-1/2 bg-gray-900 pt-[91px] pr-[90px] text-white">
+      <div className="w-1/2 pt-[91px] pr-[10px] text-white">
         {/* Content section */}
         <div>
           <About />

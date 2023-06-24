@@ -9,7 +9,7 @@ const Projects = () => {
     <section id="projects" className="w-full h-[800px]">
       <div className="font-bodyFont">
         {/* project1 */}
-        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-2">
+        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
           <p className="font-bodyFont text-gray-300 text-md w-full">
             <img
               src={faceverification}
@@ -18,8 +18,8 @@ const Projects = () => {
             />
           </p>
           <div className=" text-gray-400 font-light">
-            <div className="mx-5">
-              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor">
+            <div className="pl-[40px]">
+              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor mb-5">
                 Mobile Application · Front-End{" "}
                 <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
                   <FiArrowUpRight />
@@ -42,30 +42,20 @@ const Projects = () => {
                 </span>
                 <span className="mx-0.5">Source Code</span>
               </a>
-            </div>
-            <div className="flex mt-2 justify-end">
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-1 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+              <div className="flex group gap-1">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   React
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   React Native
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   JavaScript
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   HTML
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.2 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   CSS
                 </span>
               </div>
@@ -73,18 +63,20 @@ const Projects = () => {
           </div>
         </div>
         {/* project2 */}
-        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
-          <p className="font-bodyFont text-gray-300 text-md w-full">
-            <img src={g1} alt="g1" className="rounded-md mt-1 w-full" />
-          </p>
-          <div className=" text-gray-400 font-light">
-            <div className="mx-5">
-              <p className="font-medium text-gray-300 flex  group-hover:text-designColor">
-                Web Application for Anarahoo Homestay
-                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
-                  <FiArrowUpRight />
-                </span>
-              </p>
+        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-9 ">
+          <span className="w-full">
+            <img src={g1} alt="g1" className="rounded-md mt-1  " />
+          </span>
+          <div className=" text-gray-400 font-light ">
+            <div className="pl-[40px]">
+              <div className="">
+                <p className="font-medium text-gray-300 flex  group-hover:text-designColor mb-5">
+                  Web Application for Anarahoo Homestay
+                  <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
+                    <FiArrowUpRight className="" />
+                  </span>
+                </p>
+              </div>
               <p>
                 It is an internship project undertaken at the company Icute
                 thinkbeyond with a focus on developing a mobile application
@@ -103,32 +95,24 @@ const Projects = () => {
                 </span>
                 <span className="mx-0.5">Source Code</span>
               </a>
-            </div>
-
-            <div className="flex mt-2 ml-4">
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-1 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+              <div className="flex group gap-1">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   React
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   JavaScript
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   HTML
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.2 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   CSS
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.2 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   MySQL
+                </span>
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
+                  NodeJS
                 </span>
               </div>
             </div>

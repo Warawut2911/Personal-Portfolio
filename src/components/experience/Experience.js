@@ -3,13 +3,13 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Experience = () => {
   return (
-    <section id="experience" className="w-full h-[800px]">
+    <section id="experience" className="w-full h-[400px] ">
       <div className="font-bodyFont">
-        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
+        <div className="flex group rounded-lg  hover:bg-white hover:bg-opacity-5 cursor-pointer p-3">
           <p className="font-bodyFont text-gray-300 text-md w-full">2 months</p>
           <div className=" text-gray-400 font-light">
-            <div className="mx-5">
-              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor">
+            <div className="pl-[40px]">
+              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor mb-5">
                 Mobile Application · Front-End{" "}
                 <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
                   <FiArrowUpRight />
@@ -21,30 +21,20 @@ const Experience = () => {
                 designed to enable face scanning for the purpose of face
                 verification for attendance.
               </p>
-            </div>
-            <div className="flex mt-5 justify-end">
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-1 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+              <div className="flex group gap-1 mt-5">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   React
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   React Native
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   JavaScript
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.5 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   HTML
                 </span>
-              </div>
-              <div className="bg-designColor bg-opacity-20 rounded-full py-0.2 px-2 mr-1">
-                <span className=" text-designColor font-medium text-xs">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
                   CSS
                 </span>
               </div>
