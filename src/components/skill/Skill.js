@@ -1,10 +1,9 @@
 import React from "react";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 
-
 const Skill = () => {
   return (
-    <section id="skill" className="w-full h-[800px]">
+    <section id="skill" className="w-full h-[750px]">
       <div className="font-bodyFont">
         <div className="group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
           <div className="mb-10 group-hover:text-designColor ">

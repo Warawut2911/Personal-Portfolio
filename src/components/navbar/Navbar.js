@@ -7,6 +7,9 @@ import Experience from "../experience/Experience";
 import Projects from "../project/Projects";
 import Skill from "../skill/Skill";
 import Contact from "../contact/Contact";
+import { AiFillGithub } from "react-icons/ai";
+import { FaLinkedin, FaFacebook } from "react-icons/fa";
+
 
 const Navbar = () => {
   const [text] = useTypewriter({
@@ -58,6 +61,38 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+        <div className="group flex gap-3 my-9 cursor-pointer">
+          <div className="hover:text-designColor text-opacity-0">
+            <a
+              className="text-2xl"
+              href="https://github.com/Warawut2911"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillGithub />
+            </a>
+          </div>
+          <div className="hover:text-designColor">
+            <a
+              className="text-2xl"
+              href="https://www.linkedin.com/in/warawut-suriyachareon-849474280/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedin />
+            </a>
+          </div>
+          <div className="hover:text-designColor">
+            <a
+              className="text-2xl"
+              href="https://www.facebook.com/Warawut.su"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook />
+            </a>
+          </div>
+        </div>
       </div>
 
       {/* Content */}
@@ -69,10 +104,8 @@ const Navbar = () => {
           <Projects />
           <Skill />
           <Contact />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Nulla ac purus sit amet nisi tincidunt vestibulum.</p>
-          <p>
-            Sed efficitur neque a leo fermentum, nec feugiat elit dignissim.
+          <p className="text-center text-gray-400">
+            © 2023. All rights reserved by Warawut_s
           </p>
         </div>
       </div>

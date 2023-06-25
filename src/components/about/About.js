@@ -1,7 +1,23 @@
 import React from "react";
 import { BiSolidGraduation } from "react-icons/bi";
+import { TbSend } from "react-icons/tb";
 
 const About = () => {
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("Warawut-Resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Warawut-Resume.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <section id="about" className="w-full h-[800px]">
       <div className="font-bodyFont">
@@ -47,7 +63,18 @@ const About = () => {
           </div>
         </div>
         <div className="py-[60px]">
-          <button>Download Button</button>
+          <button
+            onClick={onButtonClick}
+            className="w-[50%] flex justify-center items-center gap-2 h-12
+            bg-white bg-opacity-10 rounded-lg text-base text-gray-400
+            tracking-wide hover:text-white duration-300"
+          >
+            {" "}
+            Download CV{" "}
+            <span>
+              <TbSend />
+            </span>
+          </button>
         </div>
       </div>
     </section>
