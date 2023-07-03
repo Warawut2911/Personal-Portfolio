@@ -18,9 +18,12 @@
 
 /* Add this CSS code */
 .active {
-  padding-left: 1.5rem;
   color: #ff014f;
   text-decoration: #ff014f wavy underline;
+  font-weight:bold;
+  font-size: small;
+  font-family:'Poppins';
+  padding-left: 1rem;
 }
 
 .scrollbar-hide::-webkit-scrollbar {

@@ -8,7 +8,7 @@ import g1 from "../../assets/images/g1.png";
 const Projects = () => {
   return (
     <section id="projects" className="">
-      <div className="font-bodyFont h-full xl:h-[800px]">
+      <div className="font-bodyFont h-full xl:h-[800px] pt-[100px] xl:py-0">
         <p className="xl:hidden  flex items-center gap-1 font-medium">
           <p className="text-xl">
             <GoProjectRoadmap />
@@ -70,7 +70,7 @@ const Projects = () => {
           </div>
         </div>
         {/* project2 */}
-        <div className="xl:flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-9 ">
+        <div className="xl:flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-5 ">
           <p className="w-full mt-7">
             <img src={g1} alt="g1" className="rounded-lg max-h-[200px] " />
           </p>
@@ -83,10 +83,9 @@ const Projects = () => {
                 </span>
               </p>
               <p>
-                It is an internship project undertaken at the company Icute
-                thinkbeyond with a focus on developing a mobile application
-                designed to enable face scanning for the purpose of face
-                verification for attendance.
+                The aforementioned web application, developed as a project in
+                the course of Independent Study, serves the purpose of
+                facilitating accommodation bookings at Anarahoo Homestay
               </p>
 
               <a

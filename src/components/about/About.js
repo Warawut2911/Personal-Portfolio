@@ -12,7 +12,7 @@ const About = () => {
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "Warawut-Resume.pdf";
+        alink.download = "Warawut-CV.pdf";
         alink.click();
       });
     });
@@ -20,7 +20,7 @@ const About = () => {
 
   return (
     <section id="about" className="">
-      <div className="font-bodyFont  h-[800px]">
+      <div className="font-bodyFont">
         <p className="text-md leading-relaxed text-gray-400">
           I aspire to become a{" "}
           <span className="text-white no-underline hover:underline decoration-[#ff014f] underline-offset-[6px]">

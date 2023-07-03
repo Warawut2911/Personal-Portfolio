@@ -42,7 +42,10 @@ const Navbar = () => {
           <ul className="pt-[50px] hidden xl:block">
             {navLinksdata.map(({ _id, title, link }) => (
               <li key={_id} className=" pt-3">
-                <span className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont">
+                <span
+                  className="text-xs font-medium relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont hover:font-bold"
+                  // className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont"
+                >
                   <Link
                     activeClass="active"
                     smooth={true}
@@ -50,7 +53,8 @@ const Navbar = () => {
                     spy={true}
                     offset={-70}
                     duration={500}
-                    className="uppercase tracking-[0.2em] transition-all duration-100 group-hover:pl-6"
+                    className="uppercase"
+                    // className="uppercase tracking-[0.2em] transition-all duration-100 group-hover:pl-6"
                   >
                     {title}
                   </Link>

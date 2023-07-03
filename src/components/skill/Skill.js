@@ -6,7 +6,7 @@ import { MdDesignServices } from "react-icons/md";
 const Skill = () => {
   return (
     <section id="skill" className="">
-      <div className="font-bodyFont h-full xl:h-[800px]">
+      <div className="font-bodyFont h-full xl:h-[700px] pt-[100px] xl:py-0">
         <div className="group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
           <div className="mb-10 group-hover:text-designColor">
             <span className="font-medium font-bodyFont flex gap-1 items-center text-xl">
