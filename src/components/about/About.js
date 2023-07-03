@@ -5,7 +5,7 @@ import { TbSend } from "react-icons/tb";
 const About = () => {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("Warawut-Resume.pdf").then((response) => {
+    fetch("Warawut-CV.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
