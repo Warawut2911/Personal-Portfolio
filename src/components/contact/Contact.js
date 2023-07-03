@@ -5,8 +5,8 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <section id="contact" className="h-max">
-      <div className="h-[800px] pt-[100px] xl:py-0 ">
+    <section id="contact" className="h-full xl:h-[800px] pt-[100px] xl:py-0">
+      <div>
         <p className="font-bodyFont  font-medium flex text-white gap-1">
           <p className="text-white text-xl">
             <MdContactEmergency />

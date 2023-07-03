@@ -99,7 +99,7 @@ const Navbar = () => {
       </nav>
 
       {/* Content */}
-      <div className="xl:w-1/2 w-3/4 h-full xl:pt-[95px] pr-[10px] text-white pl-[80px]">
+      <div className="xl:w-1/2 w-3/4 h-full xl:pt-[70px] pr-[10px] text-white pl-[80px]">
         {/* Content section */}
         <div>
           <About />

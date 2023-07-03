@@ -19,7 +19,7 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="">
+    <section id="about" className="h-full xl:h-[750px]">
       <div className="font-bodyFont">
         <p className="text-md leading-relaxed text-gray-400">
           I aspire to become a{" "}

@@ -4,8 +4,8 @@ import { BsPersonWorkspace } from "react-icons/bs";
 
 const Experience = () => {
   return (
-    <section id="experience" className="">
-      <div className="font-bodyFont h-max xl:h-[400px] pt-[100px] xl:py-0">
+    <section id="experience" className="xl:h-[600px] pt-[100px] xl:py-0">
+      <div className="font-bodyFont">
         <p className="xl:hidden my-5 flex items-center gap-1 font-medium">
           <p className="text-xl">
             <BsPersonWorkspace />
