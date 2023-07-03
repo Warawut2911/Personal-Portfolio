@@ -1,6 +1,7 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { AiOutlineLink } from "react-icons/ai";
+import { GoProjectRoadmap } from "react-icons/go";
 import faceverification from "../../assets/images/face-verification.png";
 import g1 from "../../assets/images/g1.png";
 
@@ -8,7 +9,12 @@ const Projects = () => {
   return (
     <section id="projects" className="">
       <div className="font-bodyFont h-full xl:h-[800px]">
-        <p className="xl:hidden text-xl">Project</p>
+        <p className="xl:hidden  flex items-center gap-1 font-medium">
+          <p className="text-xl">
+            <GoProjectRoadmap />
+          </p>
+          Project
+        </p>
         {/* project1 */}
         <div className="xl:flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
           <p className="w-full mt-7">

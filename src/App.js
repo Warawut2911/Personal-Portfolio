@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <div className="max-w-screen-2xl w-full">
+    <div className="max-w-screen-2xl ">
       <Navbar />
     </div>
   );

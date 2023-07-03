@@ -1,11 +1,17 @@
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
+import { BsPersonWorkspace } from "react-icons/bs";
 
 const Experience = () => {
   return (
     <section id="experience" className="">
       <div className="font-bodyFont h-full xl:h-[800px]">
-        <p className="xl:hidden text-xl my-5">Experience</p>
+        <p className="xl:hidden my-5 flex items-center gap-1 font-medium">
+          <p className="text-xl">
+            <BsPersonWorkspace />
+          </p>
+          Experience
+        </p>
         <div className="xl:flex group rounded-lg  hover:bg-white hover:bg-opacity-5 cursor-pointer p-3">
           <p className="font-bodyFont text-gray-300 text-md w-full">2 months</p>
           <div className=" text-gray-400 font-light">
