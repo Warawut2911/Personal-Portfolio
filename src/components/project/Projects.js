@@ -6,22 +6,23 @@ import g1 from "../../assets/images/g1.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className="w-full h-[800px]">
-      <div className="font-bodyFont">
+    <section id="projects" className="">
+      <div className="font-bodyFont h-full xl:h-[800px]">
+        <p className="xl:hidden text-xl">Project</p>
         {/* project1 */}
-        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
-          <p className="font-bodyFont text-gray-300 text-md w-full">
+        <div className="xl:flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
+          <p className="w-full mt-7">
             <img
               src={faceverification}
               alt="faceverification"
-              className="w-[80%] rounded-lg mt-1"
+              className="rounded-lg max-h-[200px] "
             />
           </p>
           <div className=" text-gray-400 font-light">
-            <div className="pl-[40px]">
-              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor mb-5">
+            <div className="xl:pl-[40px]">
+              <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor my-5">
                 Mobile Application · Front-End{" "}
-                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
+                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 hidden xl:block">
                   <FiArrowUpRight />
                 </span>
               </p>
@@ -63,20 +64,18 @@ const Projects = () => {
           </div>
         </div>
         {/* project2 */}
-        <div className="flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-9 ">
-          <span className="w-full">
-            <img src={g1} alt="g1" className="rounded-md mt-1  " />
-          </span>
+        <div className="xl:flex group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer my-9 ">
+          <p className="w-full mt-7">
+            <img src={g1} alt="g1" className="rounded-lg max-h-[200px] " />
+          </p>
           <div className=" text-gray-400 font-light ">
-            <div className="pl-[40px]">
-              <div className="">
-                <p className="font-medium text-gray-300 flex  group-hover:text-designColor mb-5">
-                  Web Application for Anarahoo Homestay
-                  <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
-                    <FiArrowUpRight className="" />
-                  </span>
-                </p>
-              </div>
+            <div className="xl:pl-[40px]">
+              <p className="font-medium text-gray-300 flex  group-hover:text-designColor my-5">
+                Web Application for Anarahoo Homestay
+                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 hidden xl:block ">
+                  <FiArrowUpRight />
+                </span>
+              </p>
               <p>
                 It is an internship project undertaken at the company Icute
                 thinkbeyond with a focus on developing a mobile application

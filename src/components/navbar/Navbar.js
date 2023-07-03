@@ -10,7 +10,6 @@ import Contact from "../contact/Contact";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedin, FaFacebook } from "react-icons/fa";
 
-
 const Navbar = () => {
   const [text] = useTypewriter({
     words: ["Front-End Developer.", "UX/UI Designer."],
@@ -21,9 +20,9 @@ const Navbar = () => {
   });
 
   return (
-    <div className="flex h-full px-[120px] pb-[30px] bg-gray-900 sticky top-0 ">
+    <div className="xl:flex w-full h-full xl:px-[120px] pb-[30px] bg-gray-900 ">
       {/* Navbar */}
-      <div className="w-1/2 h-full bg-gray-900 text-white pl-[96px] pt-[95px] sticky top-0 ">
+      <nav className="xl:w-1/2 w-3/4 h-full bg-gray-900 text-white xl:pl-[96px] pl-[80px] pt-[95px] xl:sticky top-0 ">
         <h1 className="text-5xl font-bold text-gray-300 font-bodyFont">
           Warawut Suriyachareon{" "}
           {/* <span className="text-designColor capitalize">Warawut Suriyachareon</span> */}
@@ -40,9 +39,9 @@ const Navbar = () => {
 
         <div>
           {/* Navbar content */}
-          <ul className="pt-[50px]">
+          <ul className="pt-[50px] hidden xl:block">
             {navLinksdata.map(({ _id, title, link }) => (
-              <li key={_id} className="pl-9 pt-3">
+              <li key={_id} className=" pt-3">
                 <span className="w-[10px] text-xs font-bold relative hover:text-designColor duration-100 group cursor-pointer font-bodyFont">
                   <Link
                     activeClass="active"
@@ -55,7 +54,7 @@ const Navbar = () => {
                   >
                     {title}
                   </Link>
-                  <span className="w-[30px] h-[3px] bg-designColor rounded-xl inline-flex absolute -left-10 bottom-1.5 group-hover:translate-x-0 group-hover:w-[60px] transition-all duration-100"></span>
+                  {/* <span className="w-[30px] h-[3px] bg-designColor rounded-xl inline-flex absolute -left-10 bottom-1.5 group-hover:translate-x-0 group-hover:w-[60px] transition-all duration-100"></span> */}
                 </span>
               </li>
             ))}
@@ -93,10 +92,10 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      </div>
+      </nav>
 
       {/* Content */}
-      <div className="w-1/2 pt-[91px] pr-[10px] text-white">
+      <div className="xl:w-1/2 w-3/4 h-full xl:pt-[95px] pr-[10px] text-white pl-[80px]">
         {/* Content section */}
         <div>
           <About />

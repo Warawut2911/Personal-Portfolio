@@ -3,11 +3,11 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 
 const Skill = () => {
   return (
-    <section id="skill" className="w-full h-[750px]">
-      <div className="font-bodyFont">
+    <section id="skill" className="">
+      <div className="font-bodyFont h-full xl:h-[800px]">
         <div className="group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer">
-          <div className="mb-10 group-hover:text-designColor ">
-            <span>Front-End Skill</span>
+          <div className="mb-10 group-hover:text-designColor">
+            <span className="font-medium font-bodyFont">Front-End Skill</span>
           </div>
           <div className="grid grid-rows-3 grid-flow-col gap-4">
             <div className="">
@@ -69,7 +69,7 @@ const Skill = () => {
 
         <div className="mt-10 group rounded-lg p-3 hover:bg-white hover:bg-opacity-5 cursor-pointer ">
           <div className="mb-10 group-hover:text-designColor">
-            <span>Design Skill</span>
+            <span className="font-medium font-bodyFont">Design Skill</span>
           </div>
           <div className="grid grid-rows-2 grid-flow-col gap-4 ">
             <div className="">

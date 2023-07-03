@@ -3,15 +3,16 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 const Experience = () => {
   return (
-    <section id="experience" className="w-full h-[400px] ">
-      <div className="font-bodyFont">
-        <div className="flex group rounded-lg  hover:bg-white hover:bg-opacity-5 cursor-pointer p-3">
+    <section id="experience" className="">
+      <div className="font-bodyFont h-full xl:h-[800px]">
+        <p className="xl:hidden text-xl my-5">Experience</p>
+        <div className="xl:flex group rounded-lg  hover:bg-white hover:bg-opacity-5 cursor-pointer p-3">
           <p className="font-bodyFont text-gray-300 text-md w-full">2 months</p>
           <div className=" text-gray-400 font-light">
-            <div className="pl-[40px]">
+            <div className="xl:pl-[40px]">
               <p className="font-medium text-gray-300 flex items-end group-hover:text-designColor mb-5">
                 Mobile Application · Front-End{" "}
-                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 ">
+                <span className="group-hover:-translate-y-1 group-hover:translate-x-0.5 hidden xl:block ">
                   <FiArrowUpRight />
                 </span>
               </p>
@@ -21,8 +22,8 @@ const Experience = () => {
                 designed to enable face scanning for the purpose of face
                 verification for attendance.
               </p>
-              <div className="flex group gap-1 mt-5">
-                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">
+              <div className="flex group gap-1 mt-5 xl:">
+                <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1">
                   React
                 </span>
                 <span className=" text-designColor font-medium text-xs bg-designColor bg-opacity-20 rounded-full p-1 ">

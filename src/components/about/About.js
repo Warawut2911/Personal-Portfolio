@@ -19,8 +19,8 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="w-full h-[800px]">
-      <div className="font-bodyFont">
+    <section id="about" className="">
+      <div className="font-bodyFont h-full xl:h-[800px]">
         <p className="text-md leading-relaxed text-gray-400">
           I aspire to become a{" "}
           <span className="text-white no-underline hover:underline decoration-[#ff014f] underline-offset-[6px]">
@@ -36,13 +36,13 @@ const About = () => {
           prioritizing the creation and maintenance of well-structured and
           sustainable code.
         </p>
-        <div className="py-[30px]">
+        {/* <div className="py-[30px]">
           <p className="text-2xl font-bold text-gray-300 font-bodyFont">
             Qualification
           </p>
           <p className="text-sm text-gray-400">My personal journey</p>
-        </div>
-        <div className="flex flex-row items-center">
+        </div> */}
+        <div className="flex flex-row items-center py-[20px]">
           <span className="text-xl">
             <BiSolidGraduation />
           </span>
@@ -51,23 +51,23 @@ const About = () => {
           </div>
         </div>
         <div>
-          <div className="flex mt-2.5">
-            <p className="font-light font-bodyFont text-gray-300 text-md">
+          <div className="xl:flex mt-2.5">
+            <p className="font-light font-bodyFont text-gray-300 text-md xl:my-0 my-2">
               2019 - 2022
             </p>
-            <div className="pl-[60px] text-gray-400 font-light">
+            <div className="xl:pl-[60px] text-gray-400 font-light">
               <p className="font-medium text-gray-300">Chiang Mai University</p>
               <p>B.S. Computer Science</p>
               <p>Minor in Marketing</p>
             </div>
           </div>
         </div>
-        <div className="py-[60px]">
+        <div className="my-[60px]">
           <button
             onClick={onButtonClick}
-            className="w-[50%] flex justify-center items-center gap-2 h-12
+            className=" w-full flex justify-center items-center gap-2 h-12
             bg-white bg-opacity-10 rounded-lg text-base text-gray-400
-            tracking-wide hover:text-white duration-300"
+            tracking-wide hover:text-white duration-300 "
           >
             {" "}
             Download CV{" "}
